@@ -1,3 +1,5 @@
+`define GLITCH_DURATION 36
+
 module top (
 	input  clk,
 	output LED1,
@@ -25,7 +27,7 @@ module top (
       counter <= 0;
       outreg <= 0;
     end
-    else if (counter == 30 && !outreg) begin
+    else if (counter == `GLITCH_DURATION && !outreg) begin
       counter <= 0;
       outreg <= 1;
     end
