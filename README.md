@@ -11,7 +11,7 @@ The basic idea here is to set up some inexpensive hardware and watch what happen
 * The [icestorm](http://www.clifford.at/icestorm/) open source FPGA toolchain (in a VM is fine)
 
 ### Wiring it up
-Todo
+See the [blog post](https://flawed.net.nz/2017/01/29/avr-glitch-modifying-code-execution-paths-using-only-voltage/).
 
 ### Results
 Todo
